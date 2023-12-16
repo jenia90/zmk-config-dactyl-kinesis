@@ -1,0 +1,5 @@
+config SHIELD_DACTYL_KINESIS_LEFT
+    def_bool $(shields_list_contains,dactyl_kinesis_left)
+
+config SHIELD_DACTYL_KINESIS_RIGHT
+    def_bool $(shields_list_contains,dactyl_kinesis_right)
