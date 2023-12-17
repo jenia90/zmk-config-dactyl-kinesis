@@ -17,5 +17,3 @@ include:
     board: nice_nano_v2
   - shield: dactyl_kinesis_right
     board: nice_nano_v2
-  - board: adv360pro_left
-  - board: adv360pro_right
