@@ -1,16 +1,16 @@
 if SHIELD_DACTYL_KINESIS_LEFT
 
-config ZMK_KEYBOARD_NAME
-    default "dactyl_kinesis"
+    config ZMK_KEYBOARD_NAME
+        default "dactyl_kinesis"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
 
 endif
 
 if SHIELD_DACTYL_KINESIS_LEFT || SHIELD_DACTYL_KINESIS_RIGHT
 
-config ZMK_SPLIT
-    default y
+    config ZMK_SPLIT
+        default y
 
 endif

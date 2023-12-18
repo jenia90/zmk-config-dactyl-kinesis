@@ -1,0 +1,14 @@
+file_format: "1"
+id: dactyl_kinesis
+name: DACTYL_KINESIS
+type: shield
+url: https://github.com/jenia90/zmk-config-dactyl-kinesis
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  # - display
+  # - encoder
+siblings:
+  - dactyl_kinesis_left
+  - dactyl_kinesis_right
