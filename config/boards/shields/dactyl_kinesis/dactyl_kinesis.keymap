@@ -7,7 +7,6 @@
 #define LOWER   1
 #define ADJUST  2
 
-
 &sl {
     release-after-ms = <5000>;
 };
@@ -17,7 +16,6 @@
     debounce-press-ms = <30>;
     debounce-release-ms = <30>;
 };
-
 
 
 / {
@@ -36,7 +34,6 @@
                                             &kp LCTRL &kp LALT  &kp LGUI    &kp DEL   &kp RET   &kp SPACE
             >;
         };
-
 
         lower_layer {
             bindings = <
