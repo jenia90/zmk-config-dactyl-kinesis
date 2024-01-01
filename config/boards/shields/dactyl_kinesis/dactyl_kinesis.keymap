@@ -7,11 +7,6 @@
 #define RAISE   2
 #define ADJUST  3
 
-&kscan0 {
-    debounce-press-ms = <30>;
-    debounce-release-ms = <30>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
