@@ -8,6 +8,17 @@
 #define LOWER   1
 #define ADJUST  2
 
+&sl {
+    release-after-ms = <5000>;
+};
+
+
+&kscan0 {
+    debounce-press-ms = <30>;
+    debounce-release-ms = <30>;
+};
+
+
 / {
     keymap {
         compatible = "zmk,keymap";
