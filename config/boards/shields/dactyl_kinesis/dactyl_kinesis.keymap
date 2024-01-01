@@ -5,8 +5,7 @@
 
 #define DEFAULT 0
 #define LOWER   1
-#define RAISE   2
-#define ADJUST  3
+#define ADJUST  2
 
 / {
     keymap {
@@ -36,19 +35,7 @@
                                                    &kp C_BRI_UP &kp C_BRI_DN   &kp PSCRN &kp INS
                                                                 &kp HOME       &kp PG_UP
                                             &trans &trans       &kp END        &kp PG_DN &trans    &trans   
-            >;       };
-
-        raise_layer {
-            bindings = <
-    &trans    &trans    &trans   &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
-    &kp TAB   &kp T     &kp Q    &kp W     &kp E     &kp R                           &trans    &trans    &trans    &trans    &trans    &trans
-    &kp G     &kp LSHFT &kp A    &kp S     &kp D     &kp F                           &trans    &trans    &trans    &trans    &trans    &trans
-    &kp M     &trans    &trans   &trans    &trans    &trans                          &trans    &trans    &trans    &trans    &trans    &trans
-              &kp COMMA &kp DOT  &trans    &trans                                              &trans    &trans    &trans    &trans
-                                                     &trans    &trans      &trans    &trans
-                                                               &kp BSLH    &trans   
-                                           &kp SPACE &kp LCTRL &kp LALT    &trans    &trans    &trans   
-            >;
+            >;       
         };
 
         adjust_layer {
