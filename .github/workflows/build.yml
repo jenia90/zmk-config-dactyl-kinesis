@@ -1,4 +1,16 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths: 
+      - 'config/*'
+      - 'build.yaml'
+  pull_request:
+    paths: 
+      - 'config/*'
+      - 'build.yaml'
+  workflow_dispatch:
+    paths: 
+      - 'config/*'
+      - 'build.yaml'
 
 jobs:
   build:
