@@ -1,0 +1,25 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
+    };
+
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <1>;
+        rows = <1>;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        label = "KSCAN";
+
+        diode-direction = "col2row";
+        row-gpios
+            = <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from the schematic file
+            ;
+
+    };
+};

@@ -1,0 +1,29 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#define DEFAULT 0
+
+&sl {
+    release-after-ms = <5000>;
+};
+
+&kscan0 {
+    debounce-press-ms = <30>;
+    debounce-release-ms = <30>;
+};
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp LGUI    
+            >;
+        };
+
+
+    }
+}

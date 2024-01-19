@@ -1,0 +1,6 @@
+if SHIELD_SWITCH_TESTER
+
+    config ZMK_KEYBOARD_NAME
+        default "switch_tester"
+
+endif

@@ -1,6 +1,6 @@
 file_format: "1"
-id: dactyl_kinesis
-name: dactyl_kinesis
+id: switch_tester
+name: switch_tester
 type: shield
 url: https://github.com/jenia90/zmk-config-dactyl-kinesis
 requires: [pro_micro]
@@ -10,5 +10,4 @@ features:
   # - display
   # - encoder
 siblings:
-  - dactyl_kinesis_left
-  - dactyl_kinesis_right
+  - switch_tester

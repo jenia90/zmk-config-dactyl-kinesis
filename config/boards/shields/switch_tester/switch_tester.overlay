@@ -1,0 +1,7 @@
+#include "switch_tester.dtsi" // Notice that the main dtsi files are included in the overlay.
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 6 GPIO_ACTIVE_HIGH> // col5 in the schematic
+        ;
+};
