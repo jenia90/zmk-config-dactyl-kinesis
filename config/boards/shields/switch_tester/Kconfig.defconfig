@@ -2,5 +2,13 @@ if SHIELD_SWITCH_TESTER
 
     config ZMK_KEYBOARD_NAME
         default "switch_tester"
+    if ZMK_BACKLIGHT
 
+    config PWM
+        default y
+
+    config LED_PWM
+        default y
+
+    endif # ZMK_BACKLIGHT
 endif
