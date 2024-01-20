@@ -1,0 +1,9 @@
+{
+  "layouts": {
+    "default_layout": {
+      "name": "default_layout",
+      "layout": [  { "row": 0, "col": 0, "x": 0, "y": 0 }]
+    }
+  },
+  "sensors": []
+}
