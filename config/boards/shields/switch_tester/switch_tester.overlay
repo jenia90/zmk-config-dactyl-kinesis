@@ -2,6 +2,6 @@
 
 &kscan0 {
     col-gpios
-        = <&gpio0 6 GPIO_ACTIVE_HIGH> // col5 in the schematic
+        = <&gpio0 8 GPIO_ACTIVE_HIGH> // col5 in the schematic
         ;
 };
