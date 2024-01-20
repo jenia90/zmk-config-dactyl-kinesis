@@ -20,7 +20,7 @@
 
         default_layer {
             bindings = <
-                &bl BL_TOG    
+                &kp LGUI    
             >;
         };
 
