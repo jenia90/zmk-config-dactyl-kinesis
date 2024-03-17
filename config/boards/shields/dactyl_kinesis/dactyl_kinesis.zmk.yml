@@ -6,6 +6,8 @@ url: https://github.com/jenia90/zmk-config-dactyl-kinesis
 requires: [pro_micro]
 features:
   - keys
+  - underglow
+  - studio
   # - display
   # - encoder
 siblings:
