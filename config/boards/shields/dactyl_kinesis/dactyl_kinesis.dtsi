@@ -5,6 +5,11 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
+    
+    EXT_POWER {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+    };
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";

@@ -4,7 +4,6 @@ name: dactyl_kinesis
 type: shield
 url: https://github.com/jenia90/zmk-config-dactyl-kinesis
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
   # - display

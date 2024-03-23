@@ -16,6 +16,10 @@
     debounce-release-ms = <30>;
 };
 
+&led_strip {
+    chain-length = <34>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
