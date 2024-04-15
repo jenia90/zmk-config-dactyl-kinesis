@@ -9,6 +9,8 @@
 
 &sl { release-after-ms = <5000>; };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE RIGHT_SHIFT>; };
+
 &kscan0 {
     debounce-press-ms = <30>;
     debounce-release-ms = <30>;
