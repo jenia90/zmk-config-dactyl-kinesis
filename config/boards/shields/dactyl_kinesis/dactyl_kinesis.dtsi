@@ -5,7 +5,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,matrix_transform = &matrix_transform0;
         zmk,physical-layout = &physical_layout0;
     };
     
@@ -14,7 +14,7 @@
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
     };
     
-    default_transform: matrix_transform0 {
+    matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <6>;
