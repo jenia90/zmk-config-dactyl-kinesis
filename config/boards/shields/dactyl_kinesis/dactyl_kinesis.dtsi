@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
-#include <physical_layouts.dtsi>
+#include "dactyl_kinesis-layouts.dtsi"
 
 / {
     chosen {
