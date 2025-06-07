@@ -16,5 +16,6 @@ include:
   - board: nice_nano
     shield: dactyl_kinesis_left
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: dactyl_kinesis_right
