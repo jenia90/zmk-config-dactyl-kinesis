@@ -1,3 +1,4 @@
+#include <physical_layouts.dtsi>
 #include "dactyl_kinesis.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {

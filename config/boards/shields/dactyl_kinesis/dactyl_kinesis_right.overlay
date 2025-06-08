@@ -1,3 +1,4 @@
+#include <physical_layouts.dtsi>
 #include "dactyl_kinesis.dtsi"
 
 &default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
