@@ -8,8 +8,6 @@ features:
   - keys
   - underglow
   - studio
-  # - display
-  # - encoder
 siblings:
   - dactyl_kinesis_left
   - dactyl_kinesis_right

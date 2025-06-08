@@ -1,15 +1,15 @@
 on:
   push:
     paths: 
-      - 'config/*'
+      - 'config/**'
       - 'build.yaml'
   pull_request:
     paths: 
-      - 'config/*'
+      - 'config/**'
       - 'build.yaml'
   workflow_dispatch:
     paths: 
-      - 'config/*'
+      - 'config/**'
       - 'build.yaml'
 
 jobs:
